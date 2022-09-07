@@ -3,8 +3,9 @@
 使用 docker.io 或其他镜像服务来提供（但不限于） gcr.io、k8s.gcr.io、quay.io、ghcr.io 等国外镜像加速下载服务
 为减少重复请求，合理利用资源，建议提前在 issues 搜索镜像是否已转换过
 
-[示例](https://github.com/togettoyou/hub-mirror/issues?q=gcr.io%2Fgoogle-samples%2Fmicroservices-demo%2Femailservice%3Av0.3.5)
-[Sync Form SuperGopher](https://github.com/togettoyou/hub-mirror)
+[示例](https://github.com/togettoyou/hub-mirror/issues?q=gcr.io%2Fgoogle-samples%2Fmicroservices-demo%2Femailservice%3Av0.3.5) 
+
+[Tools forks SuperGopher](https://github.com/togettoyou/hub-mirror)
 
 # 使用
 
