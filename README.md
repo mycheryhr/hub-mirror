@@ -4,6 +4,7 @@
 为减少重复请求，合理利用资源，建议提前在 issues 搜索镜像是否已转换过
 
 [示例](https://github.com/togettoyou/hub-mirror/issues?q=gcr.io%2Fgoogle-samples%2Fmicroservices-demo%2Femailservice%3Av0.3.5)
+[Sync Form SuperGopher](https://github.com/togettoyou/hub-mirror)
 
 # 使用
 
@@ -13,7 +14,7 @@
 
 个人 Docker 账号有每日镜像拉取限额，请勿滥用
 
-## 提交issue
+## 提交 issue
 ```json
 {
 "hub-mirror": [
@@ -27,7 +28,7 @@
 
 开启 `Settings`-`Options`-`Features` 中的 `Issues` 功能
 
-- 如果要使用DockerHub的镜像服务
+- 如果要使用 DockerHub 的镜像服务
 
     在 `Settings`-`Secrets` 新建 `DOCKER_USERNAME`（你的 Docker 用户名） 和 `DOCKER_TOKEN`（你的 Docker 密码） 两个 Secrets
     
@@ -39,9 +40,9 @@
     
     - 腾讯云: `ccr.ccs.tencentyun.com/xxxxxx`
     - 阿里云: `registry.cn-hangzhou.aliyuncs.com/xxxxxx`
-    - 其他云...
+    - 其他云……
 
-在 `Issues`-`Labels` 添加三个 label ：`hub-mirror`、`success`、`failure`
+在 `Issues`-`Labels` 添加三个 label：`hub-mirror`、`success`、`failure`
 
 最后在 `Actions` 里选择 `hub-mirror` ，在右边 `···` 菜单里选择 `Enable Workflow`
 
